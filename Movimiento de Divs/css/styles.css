@@ -1,0 +1,27 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.miDiv {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.snap {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  position: absolute;
+  z-index: 0;
+  border: 1px solid black;
+}
